@@ -1,0 +1,271 @@
+nav {
+    
+    
+    height: 80px;
+    left: 0px;
+    top: 2px;
+
+    background: linear-gradient(270deg, #745ECE 0%, rgba(105, 72, 237, 0.41) 47.4%, #5E63C8 82.29%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 100px;
+    top: 10px;
+    mix-blend-mode: normal;
+    border-radius: 2px;
+}
+
+#buscador{
+    position: absolute;
+    width: 892px;
+    height: 47px;
+    left: 448px;
+    top: 20px;
+
+    background: #FFFFFF;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #D5C9C9;
+}
+
+#fav{
+    width: 44px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#rowP{
+    background: #E5E5E5;
+}
+#principal{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#listaCards{
+    margin-top: 77px;
+}
+
+#productoLista{
+    padding-top:30px;
+    height: 221px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+#objeto{
+    display:block;
+    margin:auto;
+    width: 180px;
+    height: 180px;
+}
+
+#precio{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#carrito{
+    width: 20px;
+    height: 20px;
+}
+
+#desc{
+    height: 75px;
+}
+
+#nombre{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#lugar{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#botonEliminar{
+    width: 200px;
+    height: 51px;
+    background: #E1677D;
+    border-radius: 20px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#botonVer{
+    width: 200px;
+    height: 51px;
+    background: #C968CB;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#eliminarFav{
+    height: 89px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    padding-top:20px;
+    padding-left:0px;
+}
+
+#productoFavorito{
+    height: 221px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    padding-top:20px;
+    padding-left:0px;
+}
+
+#checkEliminarP{ 
+    padding-top: 12px;
+    padding-left: 50px;
+}
+
+#checkEliminarG{
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+#checkEliminarTodos{
+    width: 20px;
+    height: 20px;
+    background: #C4C4C4;
+}
+
+#checkEliminar{
+    width: 20px;
+    height: 20px;
+    background: #C4C4C4;
+}
+
+#detalleProducto{
+    width: 1240px;
+    height: 852px;
+    padding-top: 50px;
+    padding-left: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+#imgDetalle{
+    width: 563px;
+    height: 520px;
+}
+
+#titDesc
+{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+#desc{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #B8ACAC;
+}
+
+#rowNom{
+    margin-top: 35px;
+}
+
+#rowPrecio{
+    margin-top: 20px;
+}
+
+#rowBotonCom{
+    margin-top: 40px;
+}
+#rowBotonA{
+    margin-top: 18px;
+}
+
+#cond-quan{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#nombreDesc{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#precioDesc{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#botonComprar{
+    width: 312px;
+    height: 51px;
+    background: #C968CB;
+    border-radius: 20px;
+}
+
+#botonAnadirFav{
+    width: 312px;
+    height: 51px;
+    background: #8C86D7;
+    border-radius: 20px;
+}
+
+#botonQuitarFav{
+    width: 312px;
+    height: 51px;
+    background: #8C86D7;
+    border-radius: 20px;
+}
+
+#categoriaElemento{
+    margin-top: 43px;
+    margin-bottom: 12px;
+}

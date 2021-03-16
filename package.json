@@ -1,0 +1,24 @@
+{
+  "name": "Parcial1-Web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyPepinosaC/Parcial1-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimmyPepinosaC/Parcial1-Web/issues"
+  },
+  "homepage": "https://github.com/JimmyPepinosaC/Parcial1-Web#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcial 1 Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="nav"></div>
+          <nav class="row">
+            <div class="col-2">
+              <a class="navbar-brand">
+                <img src="./Imagenes/Logo.png" alt="Logo" id="logo"
+              /></a>
+            </div>
+            <div class="col">
+              <form class="d-flex" id="buscador">
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Filtrar por categoria"
+                />
+                <button class="btn" type="submit"><img src="./Imagenes/Buscar.png" alt="buscar"></button>
+              </form>
+            </div>
+            <div class="col-1">
+              <img src="./Imagenes/Favs.png" alt="favoritos" id="fav" />
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="row" id="rowP">
+            
+            <div class="col" id="principal">
+              <div class="card">
+                <div class="card-body" id="productoLista">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="./Imagenes/Celular.png" alt="objeto" id="objeto">
+                        </div>
+                        <div class="col">
+                            <div class="row" id="desc">
+                                <div class="col-3">
+                                    <p id="precio">$3.200.000</p>
+                                </div>
+                                <div class="col">
+                                    <img src="./Imagenes/Verde.png" alt="carrito" id="carrito">
+                                </div>
+                            </div>
+                            <div class="row" id="desc">
+                                <p id="nombre"> iPhone 11 64Gb Negro</p>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <p id="lugar">Medellin</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body" id="eliminarFav">
+                  <div class="row">
+                    <div class="col-1" id="checkEliminarP">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkEliminarTodos">
+                      </div>
+                    </div>
+                    <div class="col">
+                      <button type="button" class="btn btn-primary "id="botonEliminar" disabled>Eliminar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body" id="productoFavorito">
+                    <div class="row">
+                        <div class="col-1" id="checkEliminarG">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="checkEliminar">
+                          </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="./Imagenes/Celular.png" alt="objeto" id="objeto">
+                        </div>
+                        <div class="col">
+                            <div class="row" id="desc">
+                                <div class="col-3">
+                                    <p id="precio">$3.200.000</p>
+                                </div>
+                                <div class="col">
+                                    <img src="./Imagenes/Verde.png" alt="carrito" id="carrito">
+                                </div>
+                            </div>
+                            <div class="row" id="desc">
+                                <p id="nombre"> iPhone 11 64Gb Negro</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                          <button type="button" class="btn btn-primary "id="botonVer">Ver articulo</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-body" id="detalleProducto">
+                  <div class="row">
+                    <div class="col-8">
+                      <img src="./Imagenes/Celular.png" alt="objeto" id="imgDetalle">
+                      <h2 id="titDesc">Descripcion del producto</h2>
+                      <p id="desc">
+                        Pensado para vos El Samsung A51 posee el novedoso sistema operativo Android 10 que incorpora respuestas inteligentes y acciones sugeridas para todas tus aplicaciones. Entre sus diversas funcionalidades encontrarás el tema oscuro, navegación por gestos y modo sin distracciones, para que completes tus tareas mientras disfrutás al máximo tu dispositivo. Fotografía profesional en tu bolsillo Descubrí infinitas posibilidades para tus fotos con las 4 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados. Experiencia visual increíble Mirá tus series y películas favoritas con la mejor definición a través de su pantalla Super AMOLED de 6.5 ". Disfrutá de colores brillantes y detalles precisos en todos tus contenidos. Desbloqueo facial y dactilar Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido. Batería superior ¡Desenchufate! Con la súper batería de 4000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de recargar tu teléfono.
+                      </p>
+                    </div>
+                    <div class="col">
+                      <div class="row" id="rowCQ">
+                        <p id="cond-quan">Usado | 500 vendidos</p>
+                      </div>
+                      <div class="row" id="rowNom">
+                        <p id="nombreDesc">iPhone 11 64 Gb Negro</p>
+                      </div>
+                      <div class="row" id = rowPrecio>
+                        <p id="precioDesc">$ 3.200.000</p>
+                      </div>
+                      <div class="row" id="rowBotonCom">
+                        <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#modalComprar" id="botonComprar">Comprar</button>
+                        
+                        
+                        <div class="modal fade" id="modalComprar" tabindex="-1" role="dialog" aria-labelledby="comprarModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="comprarModalLabel">iPhone 11 64 Gb Negro</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <p>Añadido al carrito de compras</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                      <div class="row" id="rowBotonA">
+                        <button type="button" class="btn btn-primary "id="botonAnadirFav">Añadir a favoritos</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+        </div>
+      </main>
+
+      
+    
+    <script src="index.js"></script>
+  </body>
+</html>
